@@ -1,0 +1,16 @@
+2a60927148abd1d33b818b535e306557
+::res://::1681679298
+default_env.tres::Environment::2688235186403931331::1681679298::0::1::::<><>::
+icon.png::CompressedTexture2D::605824643618458557::1676860850::1680314696::1::::<><>::
+Node2D.tscn::PackedScene::-1::1680314683::0::1::::<><>::
+README.md::TextFile::-1::1676860850::0::1::::<><>::
+::res://Scenes/::1681675303
+::res://Scenes/Characters/::1681679298
+player.tscn::PackedScene::3714763471620274878::1681679298::0::1::::<><>::res://Scripts/Player.gd<>uid://ivp3w60owjub
+::res://Scenes/Game Scenes/::1681679298
+FirstDungeon.tscn::PackedScene::8435904415964099383::1681679298::0::1::::<><>::res://Scripts/FirstDungeon.gd<>uid://bs6pu2cbxxeok<>uid://yt7gfvbk872v
+::res://Scenes/Items/::1681679298
+dungeon_key.tscn::PackedScene::1725709378289646387::1681679298::0::1::::<><>::uid://ivp3w60owjub
+::res://Scripts/::1681679131
+FirstDungeon.gd::GDScript::-1::1681679131::0::1::::<>Node<>::
+Player.gd::GDScript::-1::1681678520::0::1::::<>Area2D<>::

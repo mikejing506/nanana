@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://yt7gfvbk872v"]
+
+[ext_resource type="Texture2D" uid="uid://ivp3w60owjub" path="res://icon.png" id="1_3h0g0"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e0vvq"]
+radius = 7.0
+height = 32.0
+
+[node name="DungeonKey" type="Area2D"]
+rotation = 1.5708
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_3h0g0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_e0vvq")

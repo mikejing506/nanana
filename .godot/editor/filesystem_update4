@@ -1,0 +1,9 @@
+res://default_env.tres
+res://Scenes/player.tscn
+res://Player.gd
+res://Scenes/Items/dungeon_key.tscn
+res://Scenes/Characters/player.tscn
+res://Scripts/FirstDungeon.gd
+res://Scenes/Game Scenes/FirstDungeon.tscn
+res://Scripts/Player.gd
+res://Scenes/Game Scenes/firstDungeon.tscn
