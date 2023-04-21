@@ -1,0 +1,10 @@
+CollisionShape2D
+StaticBody2D
+CharacterBody2D
+RigidBody2D
+Node2D
+Sprite2D
+Marker2D
+Node
+Area2D
+AnimatedSprite2D

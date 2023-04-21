@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://dsgod35nfdld4"]
+
+[ext_resource type="Script" path="res://Scripts/FirstDungeon.gd" id="1_cy56j"]
+[ext_resource type="PackedScene" uid="uid://bs6pu2cbxxeok" path="res://Scenes/Characters/player.tscn" id="2_kncc0"]
+[ext_resource type="PackedScene" uid="uid://yt7gfvbk872v" path="res://Scenes/Items/dungeon_key.tscn" id="3_u88oe"]
+[ext_resource type="Texture2D" uid="uid://ivp3w60owjub" path="res://icon.png" id="4_t4uhh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sxv6u"]
+size = Vector2(57, 651)
+
+[node name="Main" type="Node"]
+script = ExtResource("1_cy56j")
+player_scene = ExtResource("2_kncc0")
+key_scence = ExtResource("3_u88oe")
+
+[node name="PlayerStartPosition" type="Marker2D" parent="."]
+position = Vector2(300, 400)
+
+[node name="KeyStartPosition" type="Marker2D" parent="."]
+position = Vector2(100, 450)
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(1017, 282)
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D"]
+position = Vector2(0, 42)
+scale = Vector2(1, 10.1563)
+texture = ExtResource("4_t4uhh")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Node2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/StaticBody2D"]
+position = Vector2(-0.5, 43.5)
+shape = SubResource("RectangleShape2D_sxv6u")
